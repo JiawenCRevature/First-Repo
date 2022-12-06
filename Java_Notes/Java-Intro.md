@@ -16,3 +16,19 @@ The Java Development Kit (JDK) contains the libraries and tools we need to be ab
 A Java Runtime Environment (JRE) is provided with the JDK when you download it. A JRE is what is needed to actually be able to run your Java application. **The JRE contains the runtime libraries neceassary for your code to execute.** Contained within the JRE is the Java Virtual Machine, which is the tool that actually handles ensuring your code will run on your machine.
 
 The JVM is the tool that takes the byte code.(.class files) and turns it into data that is understanable by your particular operating system. Keep in mind, all JVMs are found in their respective Java Runtime Environment.
+
+Java primitive data types:
+-Java represents the most basic of data in structures called primitives: these data types are the simplies ones you can work with in Java, and we will be making extensive use of them while we look at the other aspects of Java
+** 
+**these primitive types represent whole numbers**
+byte b = 0; // 8 bits in size
+short s = 0; // 16 bits in size
+int i = 0; // 32 bits in size (max size 2^32 - 1)
+long l = 0; //64 bits in size
+**these primitive types represent numbers with decimals**
+float f = 0f; (must have f at the end of data or java will determine it as double) // 32 bits in size
+double d = 0; //64 bits in size
+**this primitive represents the unicode character**
+char c = 'c'; // 16 bits
+**this primitive represents logical true or false**
+boolean bb = true; // 1 bit
