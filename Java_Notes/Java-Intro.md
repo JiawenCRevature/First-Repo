@@ -1,0 +1,18 @@
+# Java
+Java is a well known enterprise programming language. As a language it is well designed ti scale in size and capabilities. There are a few key details you should know about the language:(QC will ask!)
+- Jva is a **strongly typed language**.
+    - once a data type is set, it can not be changed. (Ex: Can't do add on words)
+- Java is a **statically typed language**
+    - you must declare the data type you are working with every time you create data in your Java application. (String, Integer, etc.)
+- Java has **automatic memory management**(C++ is a lanague that you have to assign which piece that need to be memorized.)
+    - Java will handle all memory mangement and garbage collection for you
+    - garbage collection is the removal of data from memory that we are no longer using.
+- Write Once, Run Anywhere
+    -Any machine that has a JRE/JVA on it can run a Java app, no matter where that app was made
+        -a Java app designed 
+## JDK, JRE, JVM
+The Java Development Kit (JDK) contains the libraries and tools we need to be able to write our Java applications. One of the key tools we need is the Java compiler: this is what allows us to turn your source code (.java files) into byte code that can be executed on our computer (.class files). It also provides a debugger taht can be helpful is figuring our issues with our code. **(Ex: using javac in terminal to compile .java file to .class file (source code) which can be understand by computer and use java (file name) to execute the java file)** JDK use to build your code!
+
+A Java Runtime Environment (JRE) is provided with the JDK when you download it. A JRE is what is needed to actually be able to run your Java application. **The JRE contains the runtime libraries neceassary for your code to execute.** Contained within the JRE is the Java Virtual Machine, which is the tool that actually handles ensuring your code will run on your machine.
+
+The JVM is the tool that takes the byte code.(.class files) and turns it into data that is understanable by your particular operating system. Keep in mind, all JVMs are found in their respective Java Runtime Environment.
