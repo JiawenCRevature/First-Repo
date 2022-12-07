@@ -25,7 +25,7 @@ public class ControlFlowTwo {
         System.out.println("Incorrect username or password!");
     }
 
-
+    System.out.println(username != "username");
     }
     
 }
