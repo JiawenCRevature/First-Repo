@@ -1,0 +1,33 @@
+306  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/login] 
+308  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/register] 
+308  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/logout] 
+309  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: BEFORE[/api/*] 
+310  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/planets] 
+312  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/planet/{name}] 
+313  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/planet/{id}] 
+313  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/planet/{id}/moons] 
+314  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/moons] 
+314  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/moon/{name}] 
+315  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/moon/{id}] 
+315  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/api/planet] 
+315  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/api/moon] 
+315  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/api/planet/{id}] 
+316  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/api/moon/{id}] 
+318  [main] INFO  io.javalin.Javalin - Starting Javalin ... 
+418  [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.12; built: 2022-09-14T02:38:00.723Z; git: d5b8c29485f5f56a14be5f20c2ccce81b93c5555; jvm 11.0.17+8 
+491  [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0 
+502  [main] INFO  o.e.j.server.handler.ContextHandler - Started i.j.j.@54c62d71{/,null,AVAILABLE} 
+566  [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@41005828{HTTP/1.1, (http/1.1)}{0.0.0.0:7000} 
+577  [main] INFO  org.eclipse.jetty.server.Server - Started Server@6f44a157{STARTING}[11.0.12,sto=0] @791ms 
+578  [main] INFO  io.javalin.Javalin - 
+       __                  ___          ______
+      / /___ __   ______ _/ (_)___     / ____/
+ __  / / __ `/ | / / __ `/ / / __ \   /___ \
+/ /_/ / /_/ /| |/ / /_/ / / / / / /  ____/ /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/  /_____/
+
+       https://javalin.io/documentation
+ 
+598  [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/ 
+609  [main] INFO  io.javalin.Javalin - You are running Javalin 5.1.3 (released October 30, 2022). 
+612  [main] INFO  io.javalin.Javalin - Javalin started in 293ms \o/ 

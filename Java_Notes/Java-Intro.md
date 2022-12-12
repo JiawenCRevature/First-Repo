@@ -41,3 +41,8 @@ If Classes are blueprints for objects, Interfaces are more like contract agreeme
 "implements" and interface it is like an agreement has been made that the class will, somehow, implement the feature of the interface. Interface are also unique in that a class can implement multiple interfaces, whereas only a single class can be extended.
 # When to use abstract vs Interface
 If the only thing that needs to be shared is methods then use an interface: if you also need to share fields (variables associated with the objects) then use an Abstract class
+
+# Package
+NOTE: the java files have had package statements added to them: this is because I have placed them in sub 
+directories in the Java_Notes folder, and when I moved the files into the sub directories the package statemetns
+were needed to ensure you could still run the files.

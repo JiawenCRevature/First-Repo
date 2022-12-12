@@ -1,0 +1,19 @@
+270  [main] INFO  io.javalin.Javalin - Starting Javalin ... 
+274  [main] INFO  io.javalin.Javalin - No port specified, starting on port 8080. Call start(port) to change ports. 
+367  [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.12; built: 2022-09-14T02:38:00.723Z; git: d5b8c29485f5f56a14be5f20c2ccce81b93c5555; jvm 11.0.17+8 
+441  [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0 
+451  [main] INFO  o.e.j.server.handler.ContextHandler - Started i.j.j.@4879dfad{/,null,AVAILABLE} 
+515  [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@266374ef{HTTP/1.1, (http/1.1)}{0.0.0.0:8080} 
+528  [main] INFO  org.eclipse.jetty.server.Server - Started Server@7ef27d7f{STARTING}[11.0.12,sto=0] @723ms 
+529  [main] INFO  io.javalin.Javalin - 
+       __                  ___          ______
+      / /___ __   ______ _/ (_)___     / ____/
+ __  / / __ `/ | / / __ `/ / / __ \   /___ \
+/ /_/ / /_/ /| |/ / /_/ / / / / / /  ____/ /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/  /_____/
+
+       https://javalin.io/documentation
+ 
+554  [main] INFO  io.javalin.Javalin - Listening on http://localhost:8080/ 
+572  [main] INFO  io.javalin.Javalin - You are running Javalin 5.2.0 (released November 20, 2022). 
+577  [main] INFO  io.javalin.Javalin - Javalin started in 305ms \o/ 
