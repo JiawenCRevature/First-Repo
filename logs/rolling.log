@@ -1,25 +1,25 @@
-306  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/login] 
-308  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/register] 
-308  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/logout] 
-309  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: BEFORE[/api/*] 
-310  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/planets] 
-312  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/planet/{name}] 
-313  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/planet/{id}] 
-313  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/planet/{id}/moons] 
-314  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/moons] 
-314  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/moon/{name}] 
-315  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/moon/{id}] 
-315  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/api/planet] 
-315  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/api/moon] 
-315  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/api/planet/{id}] 
-316  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/api/moon/{id}] 
-318  [main] INFO  io.javalin.Javalin - Starting Javalin ... 
-418  [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.12; built: 2022-09-14T02:38:00.723Z; git: d5b8c29485f5f56a14be5f20c2ccce81b93c5555; jvm 11.0.17+8 
-491  [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0 
-502  [main] INFO  o.e.j.server.handler.ContextHandler - Started i.j.j.@54c62d71{/,null,AVAILABLE} 
-566  [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@41005828{HTTP/1.1, (http/1.1)}{0.0.0.0:7000} 
-577  [main] INFO  org.eclipse.jetty.server.Server - Started Server@6f44a157{STARTING}[11.0.12,sto=0] @791ms 
-578  [main] INFO  io.javalin.Javalin - 
+346  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/login] 
+356  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/register] 
+356  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/logout] 
+357  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: BEFORE[/api/*] 
+357  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/planets] 
+360  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/planet/{name}] 
+361  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/planet/{id}] 
+361  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/planet/{id}/moons] 
+362  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/moons] 
+363  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/moon/{name}] 
+363  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: GET[/api/moon/{id}] 
+364  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/api/planet] 
+364  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: POST[/api/moon] 
+364  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/api/planet/{id}] 
+365  [main] INFO  io.javalin.Javalin - JAVALIN HANDLER REGISTRATION DEBUG LOG: DELETE[/api/moon/{id}] 
+366  [main] INFO  io.javalin.Javalin - Starting Javalin ... 
+461  [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.12; built: 2022-09-14T02:38:00.723Z; git: d5b8c29485f5f56a14be5f20c2ccce81b93c5555; jvm 11.0.17+8 
+536  [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0 
+549  [main] INFO  o.e.j.server.handler.ContextHandler - Started i.j.j.@25a6944c{/,null,AVAILABLE} 
+616  [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1ab06251{HTTP/1.1, (http/1.1)}{0.0.0.0:7000} 
+641  [main] INFO  org.eclipse.jetty.server.Server - Started Server@479460a6{STARTING}[11.0.12,sto=0] @861ms 
+641  [main] INFO  io.javalin.Javalin - 
        __                  ___          ______
       / /___ __   ______ _/ (_)___     / ____/
  __  / / __ `/ | / / __ `/ / / __ \   /___ \
@@ -28,6 +28,62 @@
 
        https://javalin.io/documentation
  
-598  [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/ 
-609  [main] INFO  io.javalin.Javalin - You are running Javalin 5.1.3 (released October 30, 2022). 
-612  [main] INFO  io.javalin.Javalin - Javalin started in 293ms \o/ 
+649  [main] INFO  io.javalin.Javalin - Listening on http://localhost:7000/ 
+659  [main] INFO  io.javalin.Javalin - You are running Javalin 5.1.3 (released October 30, 2022). 
+660  [main] INFO  io.javalin.Javalin - Javalin started in 294ms \o/ 
+7794 [JettyServerThreadPool-27] WARN  io.javalin.Javalin - Uncaught exception 
+java.lang.NullPointerException: null
+	at com.revature.repository.UserDao.getUserByUsername(UserDao.java:18)
+	at com.revature.service.UserService.getUserByUsername(UserService.java:21)
+	at com.revature.controller.AuthenticateController.authenticate(AuthenticateController.java:17)
+	at com.revature.controller.RequestMapping.lambda$0(RequestMapping.java:16)
+	at io.javalin.routing.HandlerEntry.handle(HandlerEntry.kt:19)
+	at io.javalin.http.servlet.DefaultTasks.HTTP$lambda-8$lambda-6$lambda-5(DefaultTasks.kt:38)
+	at io.javalin.http.servlet.JavalinServlet.handleTask(JavalinServlet.kt:86)
+	at io.javalin.http.servlet.JavalinServlet.handleSync(JavalinServlet.kt:53)
+	at io.javalin.http.servlet.JavalinServlet.service(JavalinServlet.kt:41)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:587)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:764)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:529)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1571)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:221)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:57)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:176)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:484)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1544)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:174)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1302)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:129)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:173)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:122)
+	at org.eclipse.jetty.server.Server.handle(Server.java:563)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$0(HttpChannel.java:505)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:762)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:497)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:282)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:314)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:100)
+	at org.eclipse.jetty.io.SelectableChannelEndPoint$1.run(SelectableChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:933)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1077)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+7832 [JettyServerThreadPool-27] INFO  io.javalin.Javalin - JAVALIN REQUEST DEBUG LOG:
+Request: POST [/login]
+    Matching endpoint-handlers: [POST=/login]
+    Headers: {Accept=*/*, User-Agent=Thunder Client (https://www.thunderclient.com), Connection=close, Host=localhost:7000, Accept-Encoding=gzip, deflate, br, Content-Length=54, Content-Type=application/json}
+    Cookies: {}
+    Body: {
+  "username": "username",
+  "password": "password"
+}
+    QueryString: null
+    QueryParams: {}
+    FormParams: {}
+Response: [500 Server Error], execution took 175.31 ms
+    Headers: {Connection=close, Date=Tue, 13 Dec 2022 16:30:21 GMT, Content-Type=text/plain}
+    Body is 12 bytes (starts on next line):
+    Server Error
+---------------------------------------------------------------------------------- 
